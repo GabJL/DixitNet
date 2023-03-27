@@ -31,7 +31,7 @@ Hay dos pequeños scripts:
   *	Entre las palabras elegidas no pueden aparecer las del término, y solo puede aparecer a lo sumo dos palabras de la descripción (y que no aparezcan en el término).
   *	Palabras derivadas o en otros idiomas se consideran que son la misma palabra.
 *	Realización de la pregunta (Todos):
-  *	Los representantes leen 2 de las palabras elegidas (las que quieran que no se hayan dicho).
+*  *	Los representantes leen 2 de las palabras elegidas (las que quieran que no se hayan dicho).
   *	Si alguien quiere participar levanta la mano y se le da oportunidad al más rápido.
   *	Si acierta se reparten puntos y acaba el turno.
   *	Si falla, el jugador ya no puede responder más para ese término y se da la oportunidad a si alguien del otro grupo quiere intentarlo (si falla también se “elimina” para ese término).
@@ -46,5 +46,5 @@ Hay dos pequeños scripts:
 
 ###Puntos de participación (los que valen en la asignatura):
 *	Los puntos que recibe el alumno se calculan como:
-  *	Puntos de grupo ponderados: 10*puntos del grupo / (puntos del grupo 0 + puntos del grupo 1)
+*  *	Puntos de grupo ponderados: 10*puntos del grupo / (puntos del grupo 0 + puntos del grupo 1)
   *	Puntos de participación: mínimo (10, puntos de grupo ponderado + puntos de alumno)

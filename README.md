@@ -23,7 +23,7 @@ Hay dos pequeños scripts:
 ### ¿Cómo va cada turno?
 *	Mediante una ruleta se elige el tema de la siguiente pregunta.
 *	Preparación de la pregunta (Representantes):
-  *	Eligen un término al azar de los que hay de ese tema.
+* *	Eligen un término al azar de los que hay de ese tema.
   *	Cada término viene con una descripción.
   *	Los representantes deben elegir hasta 8 palabras para que el resto de alumno intenten acertar el término (en 1 minuto).
   *	Para elegir las palabras no pueden hablar, pero pueden comunicarse por escrito. 

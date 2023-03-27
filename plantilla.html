@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puntos</title>
+    <meta http-equiv="refresh" content="5"> <!-- Recarga la página cada 5 segundos -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      h2 {
+        font-size: 24px;
+        margin-top: 40px;
+      }
+      .grupo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 40px;
+      }
+      .grupo ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-left: 0px;
+      }
+      .grupo ul li {
+        margin-bottom: 10px;
+      }
+      .puntuacion-total {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      .grupo0 {
+        margin-right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Puntos</h1>
+    <div class="grupo">
+      <div class="grupo0">
+        <h2>Grupo 0</h2>
+        <p class="puntuacion-total">{{ grupo0_puntuacion_total }}</p>
+        {% if grupo0_miembros %}
+        <ul>
+          {% for miembro in grupo0_miembros %}
+            <li>{{ miembro }}: {{ grupo0_puntuaciones[miembro] }}</li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No hay miembros con puntos</p>
+        {% endif %}
+      </div>
+      <div>
+        <h2>Grupo 1</h2>
+        <p class="puntuacion-total">{{ grupo1_puntuacion_total }}</p>
+        {% if grupo1_miembros %}
+        <ul>
+          {% for miembro in grupo1_miembros %}
+            <li>{{ miembro }}: {{ grupo1_puntuaciones[miembro] }}</li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p>No hay miembros con puntos</p>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>

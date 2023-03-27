@@ -1,0 +1,548 @@
+[
+  {
+    "termino": "Red de ordenadores",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Conjunto de dispositivos conectados entre sí para intercambiar información y recursos."
+  },
+  {
+    "termino": "Sistema distribuido",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Sistema informático compuesto por múltiples nodos interconectados y que trabajan juntos como un solo sistema."
+  },
+  {
+    "termino": "Nodo intermedio",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Dispositivo de red que se utiliza para conectar diferentes segmentos de red."
+  },
+  {
+    "termino": "Enlace",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Conexión física o lógica entre dos dispositivos de red que les permite comunicarse entre sí."
+  },
+  {
+    "termino": "Semi-dúplex",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Modo de comunicación en el que los dispositivos pueden enviar y recibir información, pero no al mismo tiempo."
+  },
+  {
+    "termino": "Símplex",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Modo de comunicación en el que los dispositivos solo pueden enviar o recibir información, pero no las dos cosas."
+  },
+  {
+    "termino": "Full-dúplex",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Modo de comunicación en el que los dispositivos pueden enviar y recibir información simultáneamente."
+  },
+  {
+    "termino": "Bus",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Topología de red en la que los dispositivos se conectan a un único medio de transmisión compartido."
+  },
+  {
+    "termino": "Conmutación de paquetes",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Técnica de transmisión de datos en la que se dividen los datos en paquetes que se envían a través de la red de forma independiente."
+  },
+  {
+    "termino": "FDM",
+    "tema": 1,
+    "acronimo": "Frequency Division Multiplexing",
+    "descripcion": "Técnica de multiplexación que divide la banda de frecuencia disponible en diferentes canales para transmitir varias señales al mismo tiempo."
+  },
+  {
+    "termino": "TDM",
+    "tema": 1,
+    "acronimo": "Time Division Multiplexing",
+    "descripcion": "Técnica de multiplexación que divide el tiempo disponible en diferentes ranuras para transmitir varias señales de forma alternada."
+  },
+  {
+    "termino": "RTT",
+    "tema": 1,
+    "acronimo": "Round-Trip Time",
+    "descripcion": "El tiempo que tarda un paquete en ir desde el origen al destino y volver de nuevo al origen."
+  },
+  {
+    "termino": "Tiempo de transmisión",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "El tiempo que se tarda en meter una trama en el medio de transmisión."
+  },
+  {
+    "termino": "Tiempo de propagación",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "El tiempo que tarda una señal en viajar desde el emisor al receptor a través del medio de transmisión."
+  },
+  {
+    "termino": "Latencia",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "El tiempo que tarda un paquete en ser enviado y llegar al destino."
+  },
+  {
+    "termino": "PAN",
+    "tema": 1,
+    "acronimo": "Personal Area Network",
+    "descripcion": "Una red de dispositivos  que se utilizan para comunicarse entre sí dentro de un área pequeña como una habitación."
+  },
+  {
+    "termino": "LAN",
+    "tema": 1,
+    "acronimo": "Local Area Network",
+    "descripcion": "Una red de computadoras que están cerca uno del otro, como en una oficina o en un edificio."
+  },
+  {
+    "termino": "MAN",
+    "tema": 1,
+    "acronimo": "Metropolitan Area Network",
+    "descripcion": "Una red de computadoras que están en una ciudad o en un área metropolitana."
+  },
+  {
+    "termino": "WAN",
+    "tema": 1,
+    "acronimo": "Wide Area Network",
+    "descripcion": "Una red de computadoras que se extienden sobre un área geográfica amplia, como un país o un continente."
+  },
+  {
+    "termino": "Cable coaxial",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Un tipo de cable utilizado para transmitir señales eléctricas de alta frecuencia que consiste en un conductor central rodeado por un blindaje metálico."
+  },
+  {
+    "termino": "Fibra óptica",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Un tipo de cable utilizado para transmitir señales mediante pulsos de luz que se propagan a través de un núcleo de vidrio o plástico."
+  },
+  {
+    "termino": "Protocolo",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Conjunto de reglas y normas que rigen la comunicación entre dispositivos en una red."
+  },
+  {
+    "termino": "Torre de protocolos",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Estructura en capas que se utiliza para describir la interacción entre los diferentes protocolos de una red."
+  },
+  {
+    "termino": "Encapsulamiento",
+    "tema": 1,
+    "acronimo": "",
+    "descripcion": "Proceso de añadir información de control adicional a los datos para permitir su transmisión a través de una red."
+  },
+  {
+    "termino": "Paridad",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de detección de errores que utiliza un bit adicional para indicar si el número de bits en un conjunto de datos es par o impar."
+  },
+  {
+    "termino": "Checksum",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Valor numérico que se utiliza para comprobar la integridad de un conjunto de datos mediante la suma de verificación."
+  },
+  {
+    "termino": "CRC",
+    "tema": 2,
+    "acronimo": "Cyclic Redundancy Check",
+    "descripcion": "Método de detección de errores que utiliza una función matemática para generar un valor de comprobación que se añade a los datos."
+  },
+  {
+    "termino": "Go-Back-N",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de control de errores en el que el receptor usa una ventana de 1 y el emisor de N."
+  },
+  {
+    "termino": "Parada y Espera",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de control de errores en el que el emisor envía un paquete y espera la confirmación del receptor antes de enviar el siguiente."
+  },
+  {
+    "termino": "Repetición Selectiva",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de control de errores en el que el receptor solicita la retransmisión de los paquetes que faltan en lugar de pedir al emisor que retransmita todo."
+  },
+  {
+    "termino": "Temporizador",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Mecanismo que se utiliza para controlar el tiempo de espera de un dispositivo en una red antes de tomar una acción."
+  },
+  {
+    "termino": "Piggybacking",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Técnica que permite enviar datos de control junto con datos de usuario en un mismo paquete."
+  },
+  {
+    "termino": "Ventana deslizante",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de control de flujo que utiliza una ventana móvil para permitir el envío de múltiples paquetes sin esperar por una confirmación individual."
+  },
+  {
+    "termino": "ACK",
+    "tema": 2,
+    "acronimo": "Acknowledgement",
+    "descripcion": "Señal de confirmación enviada por el receptor a un emisor para indicar que un paquete ha sido recibido correctamente."
+  },
+  {
+    "termino": "NAK",
+    "tema": 2,
+    "acronimo": "Negative Acknowledgement",
+    "descripcion": "Señal de confirmación enviada por el receptor a un emisor para indicar que no se ha recibido cierta trama."
+  },
+  {
+    "termino": "CSMA/CD",
+    "tema": 2,
+    "acronimo": "CSMA with Collision Detection",
+    "descripcion": "Método de acceso al medio utilizado en redes LAN que permite detectar colisiones e intentar corregirlas."
+  },
+  {
+    "termino": "CSMA/CA",
+    "tema": 2,
+    "acronimo": "CSMA with Collision Avoidance",
+    "descripcion": "Método de acceso al medio utilizado en redes LAN que intenta evitar colisiones entre paquetes de datos transmitidos por múltiples dispositivos."
+  },
+  {
+    "termino": "IEEE 802.3",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Estándar IEEE que define las características físicas y de acceso al medio para redes Ethernet."
+  },
+  {
+    "termino": "IEEE 802.11",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Estándar IEEE que define las características físicas y de acceso al medio para redes wifi."
+  },
+  {
+    "termino": "1-persistente",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de acceso al medio que intenta transmitir un paquete inmediatamente después de detectar que el medio está libre."
+  },
+  {
+    "termino": "no-persistente",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Método de acceso al medio que intenta transmitir un paquete después de un tiempo de espera aleatorio tras detectar que el medio está libre."
+  },
+  {
+    "termino": "p-persistente",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Técnica de acceso al medio para redes de computadoras que cuando el canal está libre envía con probabilidad p sino espera un tiempo aleatorio."
+  },
+  {
+    "termino": "Algoritmo de Backoff",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Algoritmo que se utiliza en redes de computadoras para evitar siguientes colisiones de paquetes de datos en el canal de comunicación."
+  },
+  {
+    "termino": "Dirección MAC",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Identificador único asignado a cada dispositivo en una red de área local (LAN) que se utiliza para la comunicación a nivel de enlace de datos."
+  },
+  {
+    "termino": "DCF",
+    "tema": 2,
+    "acronimo": "Distributed Coordination Function",
+    "descripcion": "Mecanismo utilizado en redes inalámbricas WiFi para el acceso al medio en el que los dispositivos compiten por el uso del canal de comunicación."
+  },
+  {
+    "termino": "DIFS",
+    "tema": 2,
+    "acronimo": "Distributed Inter-Frame Space",
+    "descripcion": "Período de tiempo que un dispositivo debe esperar antes de transmitir un paquete de datos en una red WiFi, utilizado para evitar colisiones con otros dispositivos."
+  },
+  {
+    "termino": "PCF",
+    "tema": 2,
+    "acronimo": "Point Coordination Function",
+    "descripcion": "Mecanismo utilizado en redes inalámbricas WiFi para el acceso al medio en el que un dispositivo actúa como coordinador y controla el uso del canal de comunicación."
+  },
+  {
+    "termino": "SIFS",
+    "tema": 2,
+    "acronimo": "Short Inter-Frame Space",
+    "descripcion": "Período de tiempo más corto que un dispositivo debe esperar antes de transmitir un paquete de datos en una red WiFi, utilizado para la transmisión de tramas de control."
+  },
+  {
+    "termino": "PIFS",
+    "tema": 2,
+    "acronimo": "PCF Inter-Frame Space",
+    "descripcion": "Período de tiempo utilizado en redes inalámbricas WiFi para priorizar el acceso al medio por parte de dispositivos que utilizan el mecanismo de control de acceso al medio PCF."
+  },
+  {
+    "termino": "NAV",
+    "tema": 2,
+    "acronimo": "Network Allocation Vector",
+    "descripcion": "Campo en una trama de datos de una red inalámbrica WiFi que indica el tiempo que un dispositivo debe esperar antes de transmitir un paquete de datos para evitar colisiones con otros dispositivos."
+  },
+  {
+    "termino": "CTS",
+    "tema": 2,
+    "acronimo": "Clear to Send",
+    "descripcion": "Trama de control en una red inalámbrica WiFi que se utiliza para reservar el canal de comunicación y evitar colisiones de datos."
+  },
+  {
+    "termino": "RTS",
+    "tema": 2,
+    "acronimo": "Request to Send",
+    "descripcion": "Trama de control en una red inalámbrica WiFi que se utiliza para solicitar el uso del canal de comunicación y evitar colisiones de datos."
+  },
+  {
+    "termino": "Picorred",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Red de área personal inalámbrica bluetooth de baja potencia y corto alcance que se utiliza para la comunicación entre dispositivos cercanos, como auriculares inalámbricos o dispositivos de salud."
+  },
+  {
+    "termino": "BLE",
+    "tema": 2,
+    "acronimo": "Bluetooth Low Energy",
+    "descripcion": "Estándar de comunicación inalámbrica de corto alcance y baja potencia que se utiliza en dispositivos como relojes inteligentes o sensores de actividad física."
+  },
+  {
+    "termino": "PPP",
+    "tema": 2,
+    "acronimo": "Point-to-Point Protocol",
+    "descripcion": "Protocolo de red utilizado para establecer una conexión punto a punto entre dos nodos de una red, como una conexión a Internet de banda ancha a través de una línea telefónica."
+  },
+  {
+    "termino": "trama",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Unidad de datos en una red de computadoras que se utiliza para la transmisión de información entre dispositivos. Las tramas incluyen información de control, como la dirección de origen y destino, y los datos a transmitir."
+  },
+  {
+    "termino": "Ethertype",
+    "tema": 2,
+    "acronimo": "",
+    "descripcion": "Campo en una trama de datos en una red Ethernet que indica el protocolo de capa superior utilizado para los datos transmitidos en la trama."
+  },
+  {
+    "termino": "Hub",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dispositivo intermedio que actúa como repetidor de señales de red para amplificar y distribuir las señales a múltiples dispositivos conectados a él."
+  },
+  {
+    "termino": "switch",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dispositivo intermedio que conecta múltiples dispositivos en una red y envía los datos solo a los dispositivos de destino, mejorando el rendimiento de la red."
+  },
+  {
+    "termino": "puente",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dispositivo intermedio que se utiliza para conectar dos segmentos de red y filtrar el tráfico de red en función de la dirección MAC de los dispositivos."
+  },
+  {
+    "termino": "router",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dispositivo intermedio que se utiliza para conectar varias redes y enviar paquetes de datos entre ellas en función de la dirección IP de los dispositivos."
+  },
+  {
+    "termino": "pasarela",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dispositivo intermedio que se utiliza para conectar dos redes con diferentes protocolos de comunicación y traducir los datos entre ellos."
+  },
+  {
+    "termino": "Dirección IP",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Identificador numérico único asignado a cada dispositivo en una red que utiliza el protocolo de Internet (IP) para comunicarse con otros dispositivos en la red."
+  },
+  {
+    "termino": "ICMP",
+    "tema": 3,
+    "acronimo": "Internet Control Message Protocol",
+    "descripcion": "Protocolo utilizado por los dispositivos de red para enviar mensajes de control y error a otros dispositivos de red, como las solicitudes de ping."
+  },
+  {
+    "termino": "ARP",
+    "tema": 3,
+    "acronimo": "Address Resolution Protocol",
+    "descripcion": "Protocolo utilizado para encontrar la dirección física (MAC) de un dispositivo en una red a partir de su dirección IP."
+  },
+  {
+    "termino": "IGMP",
+    "tema": 3,
+    "acronimo": "Internet Group Management Protocol",
+    "descripcion": "Protocolo utilizado por los dispositivos de red para administrar la membresía de un dispositivo en un grupo multicast en una red."
+  },
+  {
+    "termino": "RIP",
+    "tema": 3,
+    "acronimo": "Routing Information Protocol",
+    "descripcion": "Protocolo de encaminamiento utilizado por los routers para determinar la mejor ruta para enviar paquetes de datos en una red."
+  },
+  {
+    "termino": "BGP",
+    "tema": 3,
+    "acronimo": "Border Gateway Protocol",
+    "descripcion": "Protocolo de encaminamiento utilizado para intercambiar información de enrutamiento entre sistemas autónomos (AS) en Internet."
+  },
+  {
+    "termino": "VLSM",
+    "tema": 3,
+    "acronimo": "Variable Length Subnet Masking",
+    "descripcion": "Técnica utilizada en redes para asignar subredes de diferentes tamaños a redes con diferentes necesidades de direcciones IP."
+  },
+  {
+    "termino": "HLEN",
+    "tema": 3,
+    "acronimo": "Header Length",
+    "descripcion": "Campo de la cabecera IP que especifica la longitud de la cabecera en palabras de 4 bytes."
+  },
+  {
+    "termino": "bit MF",
+    "tema": 3,
+    "acronimo": "More Fragments",
+    "descripcion": "Flag en la cabecera de un datagrama IP que indica si el datagrama tiene más fragmentos a continuación del actual."
+  },
+  {
+    "termino": "bit DF",
+    "tema": 3,
+    "acronimo": "Don't Fragment",
+    "descripcion": "Flag en la cabecera de un datagrama IP que indica si el datagrama no puede ser fragmentado en varios paquetes."
+  },
+  {
+    "termino": "Campo desplazamiento",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Campo de la cabecera de un datagrama IP que especifica el desplazamiento de los datos del datagrama dentro del paquete."
+  },
+  {
+    "termino": "Campo identificador",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Campo de la cabecera de un datagrama IP que identifica el datagrama original antes de que se dividiera en varios paquetes."
+  },
+  {
+    "termino": "TTL",
+    "tema": 3,
+    "acronimo": "Time to Live",
+    "descripcion": "Campo de la cabecera de un datagrama IP que especifica el número de saltos que el paquete puede realizar antes de ser descartado por un router."
+  },
+  {
+    "termino": "Campo Protocolo",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Campo de la cabecera de un datagrama IP que especifica el protocolo de nivel superior que se está utilizando en el paquete (por ejemplo, TCP, UDP, ICMP)."
+  },
+  {
+    "termino": "máscara",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Valor utilizado en redes para definir el rango de direcciones IP disponibles para dispositivos en una subred."
+  },
+  {
+    "termino": "Dirección multicast",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dirección IP utilizada para enviar paquetes de datos a un grupo de dispositivos."
+  },
+  {
+    "termino": "dirección localhost",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dirección IP reservada en una red que se utiliza para hacer referencia al dispositivo en el que se está ejecutando una aplicación en particular."
+  },
+  {
+    "termino": "dirección difusión",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dirección IP utilizada para enviar paquetes de datos a todos los dispositivos en una red en particular."
+  },
+  {
+    "termino": "Identificador de red",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Parte de una dirección IP que identifica la red a la que pertenece un dispositivo."
+  },
+  {
+    "termino": "CIDR",
+    "tema": 3,
+    "acronimo": "Classless Inter-Domain Routing",
+    "descripcion": "Método utilizado en redes para asignar direcciones IP de forma más eficiente y flexible que el sistema anterior de clases A, B y C."
+  },
+  {
+    "termino": "DHCP",
+    "tema": 3,
+    "acronimo": "Dynamic Host Configuration Protocol",
+    "descripcion": "Protocolo utilizado en redes para asignar automáticamente direcciones IP y otra información de red a dispositivos que se conectan a la red."
+  },
+  {
+    "termino": "Vector de distancia",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Método utilizado por routers en redes para determinar las rutas óptimas para enviar paquetes de datos basados en información sobre la distancia y dirección de los enrutadores vecinos."
+  },
+  {
+    "termino": "Estado del enlace",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Método utilizado por routers en redes para determinar las rutas óptimas para enviar paquetes de datos basados en información detallada sobre el estado y la topología de toda la red."
+  },
+  {
+    "termino": "Sistema Autónomo",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Conjunto de redes y routers bajo una única administración y política de enrutamiento en una red de Internet."
+  },
+  {
+    "termino": "NAT",
+    "tema": 3,
+    "acronimo": "Network Address Translation",
+    "descripcion": "Método utilizado en redes para asignar direcciones IP privadas a dispositivos en una red privada y traducir esas direcciones a direcciones IP públicas únicas para el tráfico de Internet."
+  },
+  {
+    "termino": "IPv6",
+    "tema": 3,
+    "acronimo": "Internet Protocol version 6",
+    "descripcion": "Versión más reciente del protocolo de Internet que proporciona un número mucho mayor de direcciones IP únicas que su predecesor, IPv4."
+  },
+  {
+    "termino": "Dirección anycast",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Dirección IP utilizada en redes y compartida por varios equipos. El objetivo es que llegue a uno de los equipos con esa IP (generalmente el más cercano)."
+  },
+  {
+    "termino": "Jumbograma",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Paquete de datos de IPv6 que tiene un tamaño mayor que los paquetes estándar y que puede ser utilizado para transferir grandes cantidades de datos con menos sobrecarga de red."
+  },
+  {
+    "termino": "datagrama",
+    "tema": 3,
+    "acronimo": "",
+    "descripcion": "Paquete de datos que se utiliza para enviar información a través de una red de computadoras y que incluye información de encabezado y carga útil."
+  }
+]

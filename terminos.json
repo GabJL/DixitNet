@@ -213,7 +213,7 @@
     "termino": "CSMA/CD",
     "tema": 2,
     "acronimo": "CSMA with Collision Detection",
-    "descripcion": "Método de acceso al medio utilizado en redes LAN que permite detectar colisiones e intentar corregirlas."
+    "descripcion": "Método de  acceso al medio utilizado en redes LAN que permite detectar colisiones e intentar corregirlas."
   },
   {
     "termino": "CSMA/CA",

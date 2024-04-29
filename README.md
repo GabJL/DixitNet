@@ -44,7 +44,7 @@ Hay dos pequeños scripts:
 * Para el acertante: 4 si acertó con 2 palabras, 3 si acertó con 4 palabras, 2 si acertó con 6 palabras y 1 si acertó con 8 palabras.
 * Para el grupo del acertante: 4 si acertó con 2 palabras, 3 si acertó con 4 palabras, 2 si acertó con 6 palabras y 1 si acertó con 8 palabras.
 
-###Puntos de participación (los que valen en la asignatura):
+### Puntos de participación (los que valen en la asignatura):
 * Los puntos que recibe el alumno se calculan como:
 	* Puntos de grupo ponderados: 10*puntos del grupo / (puntos del grupo 0 + puntos del grupo 1)
 	* Puntos de participación: mínimo (10, puntos de grupo ponderado + puntos de alumno)
